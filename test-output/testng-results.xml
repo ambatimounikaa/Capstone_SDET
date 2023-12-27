@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-18T11:13:59 IST" name="Suite" finished-at="2023-07-18T11:15:24 IST" duration-ms="84694">
+    <groups>
+    </groups>
+    <test started-at="2023-07-18T11:13:59 IST" name="Test" finished-at="2023-07-18T11:15:24 IST" duration-ms="84694">
+      <class name="test.TestRegisterPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestRegisterPage@babafc2]" started-at="2023-07-18T11:14:15 IST" name="setup" finished-at="2023-07-18T11:14:22 IST" duration-ms="6553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Register_Page_Test()[pri:0, instance:test.TestRegisterPage@babafc2]" started-at="2023-07-18T11:15:17 IST" name="Register_Page_Test" finished-at="2023-07-18T11:15:22 IST" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Page_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestRegisterPage@babafc2]" started-at="2023-07-18T11:15:23 IST" name="tearDown" finished-at="2023-07-18T11:15:23 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestRegisterPage -->
+      <class name="test.TestDatePickerPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestDatePickerPage@f107c50]" started-at="2023-07-18T11:14:05 IST" name="setup" finished-at="2023-07-18T11:14:10 IST" duration-ms="4864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Datepicker_Enabled()[pri:0, instance:test.TestDatePickerPage@f107c50]" started-at="2023-07-18T11:14:28 IST" name="Datepicker_Enabled" finished-at="2023-07-18T11:14:29 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datepicker_Enabled -->
+        <test-method signature="Datepicker_Disabled()[pri:1, instance:test.TestDatePickerPage@f107c50]" started-at="2023-07-18T11:14:29 IST" name="Datepicker_Disabled" finished-at="2023-07-18T11:15:13 IST" duration-ms="43971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datepicker_Disabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestDatePickerPage@f107c50]" started-at="2023-07-18T11:15:23 IST" name="tearDown" finished-at="2023-07-18T11:15:23 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestDatePickerPage -->
+      <class name="test.TestWindowsPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestWindowsPage@7393222f]" started-at="2023-07-18T11:14:22 IST" name="setup" finished-at="2023-07-18T11:14:28 IST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNewTabbedWindows()[pri:0, instance:test.TestWindowsPage@7393222f]" started-at="2023-07-18T11:15:13 IST" name="testNewTabbedWindows" finished-at="2023-07-18T11:15:15 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewTabbedWindows -->
+        <test-method signature="testSeperateWindows()[pri:1, instance:test.TestWindowsPage@7393222f]" started-at="2023-07-18T11:15:15 IST" name="testSeperateWindows" finished-at="2023-07-18T11:15:16 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeperateWindows -->
+        <test-method signature="testMultipleWindows()[pri:2, instance:test.TestWindowsPage@7393222f]" started-at="2023-07-18T11:15:16 IST" name="testMultipleWindows" finished-at="2023-07-18T11:15:17 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleWindows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestWindowsPage@7393222f]" started-at="2023-07-18T11:15:23 IST" name="tearDown" finished-at="2023-07-18T11:15:24 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestWindowsPage -->
+      <class name="test.TestFramesPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestFramesPage@1e44b638]" started-at="2023-07-18T11:14:10 IST" name="setup" finished-at="2023-07-18T11:14:15 IST" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSingleIframe(java.lang.String)[pri:0, instance:test.TestFramesPage@1e44b638]" started-at="2023-07-18T11:15:13 IST" name="testSingleIframe" data-provider="data-provider" finished-at="2023-07-18T11:15:13 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mounika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleIframe -->
+        <test-method signature="testFrameWithInFrame(java.lang.String)[pri:1, instance:test.TestFramesPage@1e44b638]" started-at="2023-07-18T11:15:13 IST" name="testFrameWithInFrame" data-provider="data-provider" finished-at="2023-07-18T11:15:13 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mounika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrameWithInFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestFramesPage@1e44b638]" started-at="2023-07-18T11:15:23 IST" name="tearDown" finished-at="2023-07-18T11:15:23 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestFramesPage -->
+      <class name="test.TestAlertsPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestAlertsPage@31add175]" started-at="2023-07-18T11:13:59 IST" name="setup" finished-at="2023-07-18T11:14:05 IST" duration-ms="6087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alertsWithOk()[pri:0, instance:test.TestAlertsPage@31add175]" started-at="2023-07-18T11:15:22 IST" name="alertsWithOk" finished-at="2023-07-18T11:15:22 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsWithOk -->
+        <test-method signature="alertsWithCancel()[pri:1, instance:test.TestAlertsPage@31add175]" started-at="2023-07-18T11:15:22 IST" name="alertsWithCancel" finished-at="2023-07-18T11:15:22 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsWithCancel -->
+        <test-method signature="alertsWithTextBox(java.lang.String)[pri:2, instance:test.TestAlertsPage@31add175]" started-at="2023-07-18T11:15:22 IST" name="alertsWithTextBox" data-provider="data-provider" finished-at="2023-07-18T11:15:23 IST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mounika Ambati ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsWithTextBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestAlertsPage@31add175]" started-at="2023-07-18T11:15:23 IST" name="tearDown" finished-at="2023-07-18T11:15:23 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestAlertsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
